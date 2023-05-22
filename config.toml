@@ -3,11 +3,37 @@
     extended = true
     min = "0.62.0"
 
+[author]
+  name = "Michael Riesberg-Timmer"
+  email = "MichaelRT@pallid.dev"
+  link = "https://pallid.dev"
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+
 [params]
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
-  gitRepo = ""
+  gitRepo = "https://github.com/michohl/michohl.github.io"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = ""
@@ -19,6 +45,8 @@
   description = "Portfolio and blog of Michael Riesberg-Timmer"
   # website images for Open Graph and Twitter Cards
   images = []
+
+  author = "Michael Riesberg-Timmer"
 
   # Header config
   [params.header]
@@ -78,7 +106,7 @@
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "My cool site"
+    title = "pallid.dev"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -92,9 +120,9 @@
 
   # Search config
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
@@ -122,11 +150,11 @@
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = ""
+      avatarURL = "/images/avatar.jpg"
       # title shown in home page (HTML format is supported)
-      title = ""
+      title = "pallid.dev"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "The ramblings of Michael Riesberg-Timmer"
+      subtitle = "The ramblings of the pallid dev, Michael Riesberg-Timmer"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -140,14 +168,14 @@
       paginate = 6
   # Social config in home page
   [params.social]
-    GitHub = "https://github.com/michohl"
-    Linkedin = "https://www.linkedin.com/in/michohl/"
-    Twitter = "https://twitter.com/disarray09"
+    GitHub = "michohl"
+    Linkedin = "michohl"
+    Twitter = "disarray09"
     Instagram = ""
     Facebook = ""
     Telegram = ""
     Medium = ""
-    Gitlab = "https://gitlab.com/michohl"
+    Gitlab = "michohl"
     Youtubelegacy = ""
     Youtubecustom = ""
     Youtubechannel = ""
@@ -155,11 +183,11 @@
     Quora = ""
     Keybase = ""
     Pinterest = ""
-    Reddit = "https://www.reddit.com/user/michohl"
+    Reddit = "michohl"
     Codepen = ""
     FreeCodeCamp = ""
     Bitbucket = ""
-    Stackoverflow = "https://stackoverflow.com/users/8603798/michohl"
+    Stackoverflow = "8603798/michohl"
     Weibo = ""
     Odnoklassniki = ""
     VK = ""
@@ -243,7 +271,7 @@
       # whether to keep the static table of the contents in front of the post
       keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
-      auto = true
+      auto = false
     # Code config
     [params.page.code]
       # whether to show the copy button of the code block
@@ -293,11 +321,11 @@
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false

@@ -1,6 +1,6 @@
 ---
 title: "Keyboards"
-date: 2023-05-22T00:32:42-05:00
+date: 2024-07-17T00:32:42-05:00
 draft: false
 resources:
 - name: "featured-image"
@@ -18,6 +18,25 @@ that a close friend of mine was singing praises of this new fangled type of keyb
 than I ever could have predicted and turned into a whole other hobby of mine.
 
 This post is meant to act as a showcase of all the keyboards I've had, why I got them, and what I find interesting about them. These are in no particular order and will just be shown as I think of them.
+
+## Meletrix Zoom65
+
+![zoom65](images/meletrix-zoom65.jpg)
+
+The Zoom65 is a recent addition to my collection. I got this keyboard to replace the Tofu65 actually. I decided I
+wasn't a huge fan of the sharp edges, compact key layout, and case color of the Tofu65. A friend of mine actually
+already had the Zoom65 and it felt so much more pleasing than the Tofu65 ever did to me.
+
+So when I saw a local listing on Facebook Marketplace I decided to pull the trigger and make this my replacement for
+the Tofu65 meaning it was religated to only being used for gaming.
+
+One of the things I was looking forward to about this new keyboard was that it had a wireless bluetooth module built
+in already. Although the seller did warn me when I bought it that the bluetooth was un-reliable at best.
+
+Turns out there was some truth to that. The bluetooth worked perfectly for me _at first_. Then one day my primary PC
+decided it wasn't happy with the device anymore and proceeded to never be able to pair with it again! I can still use
+the bluetooth functionality on every other bluetooth device I own which is very handy for things like my Steam Deck.
+But for gaming I am stuck with the hard wired solution for now.
 
 ## IF-Corne
 

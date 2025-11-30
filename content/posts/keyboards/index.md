@@ -19,6 +19,30 @@ than I ever could have predicted and turned into a whole other hobby of mine.
 
 This post is meant to act as a showcase of all the keyboards I've had, why I got them, and what I find interesting about them. These are in no particular order and will just be shown as I think of them.
 
+## Ferris
+
+![ferris](images/ferris-flat.jpg)
+
+The ferris is a keyboard I actually didn't have that much interest in using
+but I found it so absolutely adorable when I saw it sitting unused I had to
+buy it from a friend.
+
+This was actually not my first run in with this keyboard since the aforementioned
+friend actually requested some help fixing it when he had first gotten it. So I
+have had it in my hands before to touch up some of the solder on a switch or two.
+
+This is keyboard is an open source hardware project and can be found at
+https://github.com/pierrechevalier83/ferris. This actually fits a pretty
+similar niche to me as my Corne which I already wasn't using. But what made this 
+keyboard so irresistable to me was it's absolutely adorable carrying case that it
+can slide into thanks to it's low profile design.
+
+![ferris-case](images/ferris-case.jpg)
+
+This thing is so small it's borderline pocketable! 
+
+The switches are Kalih low profile choc blue switches.
+
 ## Meletrix Zoom65
 
 ![zoom65](images/meletrix-zoom65.jpg)

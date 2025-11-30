@@ -464,6 +464,24 @@ Packer is interesting and I've never tried it but it feels like it only solves t
 creation time and doesn't really help with keeping things in line with each other through the
 lifecycle of the server.
 
+### Workbench Built In KVM
+
+Now that I have a permanent rack on the workbench I think it would be cool to add some "built in"
+features to the workbench including a KVM that hooks up to a mounted monitor as well as a power
+strip.
+
+The idea that is stuck in my head is the back of audio production setups that are angled.
+
+![audio-proudction-built-in](images/audio-built-in.jpeg)
+
+I'm hoping I could get something maybe 1/3 of the height that could sit in the on the back of my
+workbench surface up against the peg board back.
+
+For the power it could be something like this and then I would want to try and find something
+similar style wise for a KVM.
+
+![power-strip-built-in](images/power-strip-built-in.jpg)
+
 
 ## Random Linux Story
 

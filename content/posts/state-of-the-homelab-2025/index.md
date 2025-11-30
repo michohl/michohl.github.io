@@ -1,6 +1,6 @@
 ---
 title: "State of the Homelab 2025"
-date: 2025-12-01T00:00:00-06:00
+date: 2025-11-31T01:00:00-06:00
 draft: false
 resources:
 - name: "featured-image"
@@ -20,20 +20,20 @@ Homelabbing started for me as a way to dip my toes into the Linux universe witho
 committing to running it on my precious gaming PC back when I was in college.
 
 As I studied computer science I wanted to play around with concepts I was seeing at
-school and had no experience with. Back then it was simple things like LAMP 
-(Linux, Apache, MySQL, PHP). I didn't really host anything noteworthy but this was how 
+school and had no experience with. Back then it was simple things like LAMP
+(Linux, Apache, MySQL, PHP). I didn't really host anything noteworthy but this was how
 I started to learn about Linux, Networking, Web Development, and all the fun niche topics
 that fall underneath those broader umbrellas.
 
 At the time in 2015-2019 my lab always consisted of a computer or two running bare metal
-Linux. I can't begin to imagine how many times I installed Ubuntu Server `16.04` and 
+Linux. I can't begin to imagine how many times I installed Ubuntu Server `16.04` and
 `18.04`.
 
-The next evolution of my lab was running VMWare ESXi on commodity hardware. This allowed 
+The next evolution of my lab was running VMWare ESXi on commodity hardware. This allowed
 me to condense my footprint and start exploring all the new fun topics that were involved
 with virtulization.
 
-Now that I could easily add more servers without increasing my hardware footprint I 
+Now that I could easily add more servers without increasing my hardware footprint I
 started looking for "useful" things that I could run on at home to become less dependent
 on other companies. To be honest, most of the things I hosted never ended up getting used
 much and were mostly just experiments on going through the exercise of installing and
@@ -45,11 +45,11 @@ shiny hardware came around as I found antother project I wanted to work on.
 
 I was always interested in more "permanent" labs that served more purpose to me but it
 never felt right at the time since I was living in rentals and didn't have the freedom
-to build out my "vision". 
+to build out my "vision".
 
 That changed a couple years ago when I purchased my first home and I could finally start
 building more "permanent" infrastructure into my home. Now I have a honestly pretty
-crappy setup but it serves it's purposes and gives me lots of room for projects 
+crappy setup but it serves it's purposes and gives me lots of room for projects
 to keep myself busy.
 
 I'm hoping that by taking inventory of what I've done I can both appreciate the work
@@ -59,7 +59,7 @@ of the goals I was hoping to.
 
 ## Current State of the Lab
 
-The current state of my lab is far from what I would call "production grade" or 
+The current state of my lab is far from what I would call "production grade" or
 "the vision". Everything that currently exists was very "one choice at a time" and didn't
 come from any coherent strategy that tied everything together.
 
@@ -77,7 +77,7 @@ Here is a diagram that shows the high level layout of everything. I'll go into m
 ### Network Rack Installation
 
 When I first moved into my current house I didn't actually have any real infrastructure
-so I decided to start with just the basics of networking. The primary goal of this was to run Ethernet through my house. 
+so I decided to start with just the basics of networking. The primary goal of this was to run Ethernet through my house.
 
 All of the ethernet I ran needed to go somewhere so I installed a wall mounted network
 rack to host my router and a simple unmanaged switch that everything could be run to.
@@ -87,13 +87,13 @@ This is the rack that is pictured at the top of this post.
 ### New Small Form Factor (SFF) Proxmox Server
 
 In September 2024 I had my networking in my house and decided I wanted a "real rack
-mounted server". I want to be perfectly clear that I knew that putting a full 
+mounted server". I want to be perfectly clear that I knew that putting a full
 fledged server into my existing network rack was going to be a terrible idea.
 
 Unfortunately the devil on my shoulder has a way with words and I'm so easily
 swayed into trying to make things happen that have no right to be.
 
-This build is the antithesis of all things good and holy in computing. 
+This build is the antithesis of all things good and holy in computing.
 I should have known by the fact I had to spend many months just spent researching
 to source a rack mount chassis that fit my "needs" which were:
 
@@ -110,10 +110,10 @@ Google.
 
 ![sff-chassis-amazon](images/sff-server-amazon.png)
 
-I was hoping this could be _the build_. the "one server to rule them all" 
+I was hoping this could be _the build_. the "one server to rule them all"
 that could fit into my existing network rack and save myself from getting a full
-fledged rack that would take up floor space  just to host a single server. 
-Not like I would ever want to add more servers, right...? 
+fledged rack that would take up floor space  just to host a single server.
+Not like I would ever want to add more servers, right...?
 
 I wanted this server to be a proxmox node running all the following services:
 
@@ -123,7 +123,7 @@ I wanted this server to be a proxmox node running all the following services:
 * Jellyfin
 * Paperless NGX
 
-Despite knowing in my heart this was truly a terrible idea I continued forward and 
+Despite knowing in my heart this was truly a terrible idea I continued forward and
 started building. I think the two following pictures do a great job of illustrating how
 ridiculous this idea was.
 
@@ -160,7 +160,7 @@ to the VM.
 This was the catalyst for needing a second server that could house a GPU and run my
 Jellyfin VM a little more comfortably. This wasn't too hard to throw together since
 I had a tower which was previously my primary Proxmox server. I just repurposed it
-and got it back up and running without much effort. 
+and got it back up and running without much effort.
 
 But now that I had a second node I started to consider some "quality of life"
 improvements that I could get with a second node. Namely:
@@ -181,9 +181,9 @@ command to send all the data to my PBS server.
 
 I actually had spare drives laying around that could add up to the amount of storage
 needed to hold these backups but it was across many drives that my case simply
-couldn't accomodate phsyically. What I did have, on the other side of the 
-room though, was a spare ThinkStation tower that had a nice HDD caddy that wasn't 
-filled with any drives. So I'll just remove a few screws, take that caddy, 
+couldn't accomodate phsyically. What I did have, on the other side of the
+room though, was a spare ThinkStation tower that had a nice HDD caddy that wasn't
+filled with any drives. So I'll just remove a few screws, take that caddy,
 and find a way to secure it to our existing case. Easy peasy.
 
 It was not easy peasy...
@@ -192,7 +192,7 @@ It turns out that all the bits I wanted to remove were actually riveted to the
 chassis and even after removing those rivets there was seemingly nothing but the
 will of the universe holding this cadddy up.
 
-Frustrated and throwing all caution to the wind the extraction methods started 
+Frustrated and throwing all caution to the wind the extraction methods started
 to become, drastic...
 
 ![destroyed-case](images/destroyed-case.jpg)
@@ -237,7 +237,7 @@ client.
 
 I was able to configure my headscale and Pihole together in a way where if I'm on
 my home LAN and make a request to `something.pallid.dev` it'll resolve to my local
-LAN IP (192.168.50.x) but when I am away from home and connected with the 
+LAN IP (192.168.50.x) but when I am away from home and connected with the
 tailscale client I can still use the same URL to reach my Tailscale IP (100.64.0.x).
 
 Headscale ended up becoming a critical part of my homelab network as I expanded into
@@ -258,7 +258,7 @@ The second issue is that my parents don't have a NAS at home. Their "computer
 portfolio" consists of a single Chromebook (god I love those things for family) and
 putting all of their important personal documents on Google Drive or worse, on their work devices.
 
-This seemed like the perfect chance to kill two birds with one stone. I would 
+This seemed like the perfect chance to kill two birds with one stone. I would
 make a server that could live at their house full time and they could use for their
 own storage needs and then we could both benefit from an offsite peer to peer backup
 of our data.
@@ -275,7 +275,7 @@ And it came together decently well actually!
 
 I was able to get this deployed to my parent's house as a Christmas present,
 my TrueNAS data is being properly backed up somewhere offsite, and my parents
-don't have to store their taxes and irreplacable family pictures on their work 
+don't have to store their taxes and irreplacable family pictures on their work
 computers anymore.
 
 ### Dell Poweredge R410 From Facebook Marketplace
@@ -295,7 +295,7 @@ Questions that still have yet to be answered like:
 
 This was actually one of the more satisfying projects I did at the end of 2025.
 
-At this point I am committed to filling out a real rack and separating some of 
+At this point I am committed to filling out a real rack and separating some of
 the functions of my existing SFF server. I'm also planning to add a dedicated
 NVR server next year. To make room for these I wanted to commit to a "real rack"
 that coul fit full depth servers.
@@ -313,18 +313,18 @@ building something more DIY that could fit in this space and feel like a "built-
 in my existing workspace rather than a bolt-on like a rack would.
 
 The build honestly wasn't to terribly complicated. Just basically a table that was
-19" wide (measured from the inside of the posts) and 24" deep to max out the 
+19" wide (measured from the inside of the posts) and 24" deep to max out the
 space on my shelf.
 
 Now you might be wondering "Why didn't you just build an actual Lack Rack if you
 already knew they existed and were easier than full custom?" and that would
 actually be a very sane and reasonable question.
 
-Unfortunately, as I always do, I decided I needed some "wow factor" in the way 
-of some feature that was both unecessary and probably poorly designed. And by 
+Unfortunately, as I always do, I decided I needed some "wow factor" in the way
+of some feature that was both unecessary and probably poorly designed. And by
 that I mean I decided that my rack itself had to be installed on rails...
 
-This would reqwuire adding an undermount rail kit and adding a piece of plywood 
+This would reqwuire adding an undermount rail kit and adding a piece of plywood
 on those undermount rails to act as the platform to install the rack to. This added
 _just enough_ height to my build that the Lack Rack would be a bit too tall.
 
@@ -337,14 +337,14 @@ And not to toot my own horn but I'm pretty darn happy with how this turned out.
 
 ![rack-extended](images/custom-rack-2.jpg)
 
-I'll be honest. There's no reason this thing should be on rails. 
+I'll be honest. There's no reason this thing should be on rails.
 The back of the rack is already completely open and accessible.
 In fact it's absolutely ridiculous, the idea of a rack that contains a server
 on rails that can be extended out itself being extended out on rails.
 I just thought it would look super sick if it could come out and I still think
 it does :)
 
-I do think there is some potential to get some more "use" out of this design. 
+I do think there is some potential to get some more "use" out of this design.
 I am thinking I can add some hooks or other "mounting" hardware to the sides for
 hanging gear that doesn't have a home.
 
@@ -398,7 +398,7 @@ services if I had a beefier server dedicated to just those tasks. This would
 include things like:
 
 * Jellyfin
-* Databases 
+* Databases
 * Proxmox Backup Server
 
 ### Proxmox Cluster
@@ -422,7 +422,7 @@ There's no functional reason I want to do this. I just think it sounds like fun 
 
 Currently my Proxmox Backup Server is itself living on a Proxmox server. Just feels brittle.
 
-Also if I move this VM underneath of TrueNAS then the Dataset can be replicated to my 
+Also if I move this VM underneath of TrueNAS then the Dataset can be replicated to my
 new offsite backup at my paren'ts house which seems like a good idea.
 
 ### Automation Exploration
@@ -482,7 +482,7 @@ hardware!
 ## Conclusion
 
 This was a _very_ long winded post and was very self indulgent and not reader
-optimized. So if you're looking for the TL;DR I'll try to briefly summarize some of 
+optimized. So if you're looking for the TL;DR I'll try to briefly summarize some of
 the more important bits here.
 
 ### What I'm Happy With in My Current Setup

@@ -1,6 +1,6 @@
 ---
 title: "State of the Homelab 2025"
-date: 2025-11-31T01:00:00-05:00
+date: 2025-11-31
 draft: false
 resources:
 - name: "featured-image"

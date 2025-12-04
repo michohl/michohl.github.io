@@ -1,7 +1,9 @@
+theme = 'LoveIt'
+
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.62.0"
+    min = "0.128.0"
 
 [author]
   name = "Michael Riesberg-Timmer"
@@ -46,7 +48,10 @@
   # website images for Open Graph and Twitter Cards
   images = []
 
-  author = "Michael Riesberg-Timmer"
+  [params.author]
+      name = "Michael Riesberg-Timmer"
+      email = "MichaelRT@pallid.dev"
+      link = ""
 
   # Header config
   [params.header]
@@ -170,7 +175,7 @@
   [params.social]
     GitHub = "michohl"
     Linkedin = "michohl"
-    Twitter = "disarray09"
+    Twitter = ""
     Instagram = ""
     Facebook = ""
     Telegram = ""

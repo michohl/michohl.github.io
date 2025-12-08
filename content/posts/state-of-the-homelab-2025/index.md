@@ -72,7 +72,7 @@ And here is a summary of all the server hardware
 | Name | Case | Motherboard | CPU | Memory | GPU | Storage |
 | :--  | :--  | :--         | :-- | :--    | :-- | :--     |
 | SFF Server | [PLINKUSA RACKBUY 2U Mini ITX](https://www.amazon.com/dp/B01BFW16HM) | Gigabyte A520I AC | AMD Ryzen 5 5600GT @ 3.6GHz | 64GB DDR4 | Integrated graphics | 120GB SSD (x2) + 12TB HDD |
-| Franken Server | Unknown case | ASRock H97 Anniversary | Intel something | 16GB | AMD XFX Radeon HD 6850 | 8TB |
+| Franken Server | Lian Li 205 MT TG ATX | ASRock H97 Anniversary | Intel something | 16GB | AMD XFX Radeon HD 6850 | 8TB |
 | Offsite TrueNas | [KCMconmey 4 bay DIY NAS Case](https://www.amazon.com/dp/B09WQC44B3) | [HKUXZR N100](https://www.amazon.com/dp/B0CPVQZLQV) | N100 | 32GB DDR5 | Integrated graphics | 16TB HDD |
 | Dell PowerEdge R410 | | | 2x Intel Xeon X5660 | 24GB DDR3 ECC | None | None |
 
